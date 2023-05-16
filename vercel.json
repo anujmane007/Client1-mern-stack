@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://anujmane4243:Q43VXmuExixEDwok@cluster0.alsuyoh.mongodb.net/test"
+  }
+}
