@@ -62,7 +62,7 @@ app.post('/connect', (req, res) => {
 
     const msg = {
         to: 'anujmane007@gmail.com', // Replace with your recipient's email address
-        from: 'anujmane4243@gmail.com', // Replace with your sender's email address
+        from: 'vmane5785@gmail.com', // Replace with your sender's email address
         subject: `Anybody Want's to connect with our SM Construction Family`,
         html: `
         <p><strong>Name:</strong> ${username}</p>
@@ -109,7 +109,7 @@ app.post('/contact', async (req, res) => {
         // Send email using SendGrid
         const msg = {
             to: 'anujmane007@gmail.com',
-            from: 'anujmane4243@gmail.com',
+            from: 'vmane5785@gmail.com',
             subject: 'New Message Received via SM Construction Website',
             text: `Name: ${req.body.name}\nEmail: ${req.body.email}\nNumber: ${req.body.number}\nMessage: ${req.body.message}`
         };
